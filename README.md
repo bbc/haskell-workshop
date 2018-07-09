@@ -3,9 +3,7 @@ haskell-workshop
 
 Installation
 ------------
-[Download the Haskell Platform](https://www.haskell.org/platform/)
-
-Or alternatively download [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
+[Download the Haskell Platform](https://www.haskell.org/platform/) or [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 
 Core text
 -----------
