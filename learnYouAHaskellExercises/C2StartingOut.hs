@@ -7,16 +7,12 @@ module C2StartingOut where
 -- Example: sub 100 72 returns 28
 sub = error "TODO sub"
 
--- Write a function to divide a number by 10
--- Example: divideByTen 50 returns 5
-divideByTen = error "TODO divideByTen"
-
 -- Write a function that calculates the area of a circle
 -- Hint: Use pi from Prelude
 -- Example: area 10 returns 314.1592653589793 
 area = error "TODO area"
 
--- Write a function that takes two arguments and concatenates them together
+-- Take two arguments and concatenate them together
 -- Example: myConcat "hello" "Haskell" returns "hello Haskell"
 myConcat = error "TODO myConcat"
 
@@ -28,8 +24,7 @@ myThirdFirst = error "TODO myThirdFirst"
 -- Example myThirdLast [6,7,8,9,10] returns 8
 myThirdLast = error "TODO myThirdLast"
 
--- Write a function that takes the last three items from a list and sums them
--- Hint: Use reverse, take, and sum
+-- Take the last three items from a list and sums them
 -- Example: lastThreeSummed [10,20,30,40,50] returns 120
 lastThreeSummed = error "TODO lastThreeSummed"
 
@@ -37,6 +32,11 @@ lastThreeSummed = error "TODO lastThreeSummed"
 -- Example: upToEight returns ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 upToEight = error "TODO upToEight"
 
--- Write a list comprehension that calculates fizzBuzz
+-- Generate a palindrome from any input string (doesn't have to be meaningful)
+-- Example: palindrome "cats and dogs" returns "cats and dogssgod dna stac"
+palindrome = error "TODO palindrome"
+
+-- Write a list comprehension that returns fizzBuzz
 -- Example: fizzBuzz returns ["Fizz", "Fizz", "Buzz", ... etc]
 fizzBuzz = error "TODO fizzBuzz"
+
