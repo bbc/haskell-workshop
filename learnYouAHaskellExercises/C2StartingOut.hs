@@ -36,6 +36,11 @@ upToEight = error "TODO upToEight"
 -- Example: palindrome "cats and dogs" returns "cats and dogssgod dna stac"
 palindrome = error "TODO palindrome"
 
+-- Cut the elements of a list between two points
+-- Hint: this function will take 3 arguments (two indices and a list)
+-- Example: cut 10 20 [1..100] returns [11,12,13,14,15,16,17,18,19,20]
+cut = error "TODO cut"
+
 -- Write a list comprehension that returns fizzBuzz
 -- Example: fizzBuzz returns ["Fizz", "Fizz", "Buzz", ... etc]
 fizzBuzz = error "TODO fizzBuzz"
