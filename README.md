@@ -9,13 +9,28 @@ Usage
 -----
 In your terminal you can open the interpreter with `ghci` or `stack ghci`.
 
-To compile a program, run `ghc <filename>` or `stack ghc <filename>`. This will create an executable in the current directory which you can run.
+To compile a program, run `ghc Filename.hs` or `stack ghc Filename.hs`. This will create an executable in the current directory which you can run.
 
 Core text
 -----------
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
 
 It is recommended a chapter a week is read and exercises completed. 
+
+Exercises
+---------
+
+Once you have loaded ghci, you can load each module/file into the interpreter,
+
+```
+:l Filename.hs
+-- Now you can run the functions in that module here
+```
+
+The exercises come in various degrees of difficulty, hopefully starting straightforward and then ramping up somewhat. If you try to run a exercises that you have not implemented yet, it will throw an error in the interpreter letting you know.
+
+Feel free to contribute if they are too easy, too hard, or you have any suggestions.
+
 
 Other suggested learnings
 -------------------------
