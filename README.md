@@ -5,6 +5,12 @@ Installation
 ------------
 [Download the Haskell Platform](https://www.haskell.org/platform/) or [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 
+Usage
+-----
+In your terminal you can open the interpreter with `ghci` or `stack ghci`.
+
+To compile a program, run `ghc <filename>` or `stack ghc <filename>`. This will create an executable in the current directory which you can run.
+
 Core text
 -----------
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
