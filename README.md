@@ -33,7 +33,6 @@ The exercises come in various degrees of difficulty, hopefully starting straight
 
 Feel free to contribute if they are too easy, too hard, or you have any suggestions.
 
-
 Other suggested learnings
 -------------------------
 * [Functional Programming in Haskell - Online Course](https://www.futurelearn.com/courses/functional-programming-haskell/3)
