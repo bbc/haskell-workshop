@@ -5,6 +5,8 @@ Installation
 ------------
 [Download the Haskell Platform](https://www.haskell.org/platform/)
 
+Or alternatively download [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
+
 Core text
 -----------
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
