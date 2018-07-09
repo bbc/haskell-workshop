@@ -28,9 +28,9 @@ myThirdLast = error "TODO myThirdLast"
 -- Example: lastThreeSummed [10,20,30,40,50] returns 120
 lastThreeSummed = error "TODO lastThreeSummed"
 
--- Write a function that takes the first 8 characters from the english alphabet in a list
--- Example: upToEight returns ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-upToEight = error "TODO upToEight"
+-- Get the first n characters from the english alphabet in a list
+-- Example: getLetters 8 returns ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+getLetters = error "TODO getLetters"
 
 -- Generate a palindrome from any input string (doesn't have to be meaningful)
 -- Example: palindrome "cats and dogs" returns "cats and dogssgod dna stac"
