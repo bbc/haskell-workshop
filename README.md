@@ -20,7 +20,7 @@ It is recommended a chapter a week is read and exercises completed.
 Exercises
 ---------
 
-The exercises for the book are in the learnYouAHaskellExercises directory.
+The exercises for the book are in the `learnYouAHaskellExercises/src` directory.
 
 Once you have loaded ghci, you can load each module/file into the interpreter,
 
