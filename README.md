@@ -31,6 +31,14 @@ Once you have loaded ghci, you can load each module/file into the interpreter,
 
 The exercises come in various degrees of difficulty, hopefully starting straightforward and then ramping up somewhat. If you try to run a exercises that you have not implemented yet, it will throw an error in the interpreter letting you know.
 
+You can also run unit tests to check whether your implementation is correct. In the learnYouAHaskellExercises directory, run:
+
+```
+stack test
+```
+
+to run the tests.
+
 Feel free to contribute if they are too easy, too hard, or you have any suggestions.
 
 Other suggested learnings
