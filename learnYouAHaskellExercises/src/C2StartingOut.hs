@@ -18,11 +18,11 @@ myConcat = error "TODO myConcat"
 
 -- Get the third element from a list using only head and tail
 -- Example: myThirdFirst [1,2,3,4,5] returns 3
-myThirdFirst = error "TODO myThirdFirst"
+getThirdElement = error "TODO getThirdElement"
 
 -- Get the third to last element from a list using only last and init
 -- Example myThirdLast [6,7,8,9,10] returns 8
-myThirdLast = error "TODO myThirdLast"
+getThirdElementLast = error "TODO getThirdElementLast"
 
 -- Take the last three items from a list and sums them
 -- Example: lastThreeSummed [10,20,30,40,50] returns 120
