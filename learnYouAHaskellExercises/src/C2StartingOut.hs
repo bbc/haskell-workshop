@@ -13,7 +13,7 @@ sub = error "TODO sub"
 area = error "TODO area"
 
 -- Take two arguments and concatenate them together
--- Example: myConcat "hello" "Haskell" returns "hello Haskell"
+-- Example: myConcat "hello" " Haskell" returns "hello Haskell"
 myConcat = error "TODO myConcat"
 
 -- Get the third element from a list using only head and tail
