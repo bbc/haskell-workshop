@@ -32,3 +32,7 @@ hasShowableInside xs = null xs
 -- hasNumbersInside :: ??
 hasNumbersInside xs = null xs
 
+-- Write the type signature for this function
+-- Hint: You will need to use the relevant typeclasses
+--- showAndRead :: ??
+showAndRead a = read (show a)
