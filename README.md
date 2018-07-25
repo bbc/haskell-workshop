@@ -5,8 +5,10 @@ Installation
 ------------
 [Download the Haskell Platform](https://www.haskell.org/platform/) or [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 
+Editors
+-------
 ### Vim
-[Syntastic](https://github.com/vim-syntastic/syntastic) supports syntax checking in Haskell for Vim.
+* [Syntastic](https://github.com/vim-syntastic/syntastic) supports syntax checking in Haskell for Vim.
 
 Usage
 -----
