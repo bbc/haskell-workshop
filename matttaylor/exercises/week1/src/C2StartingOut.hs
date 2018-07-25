@@ -50,4 +50,4 @@ palindrome x = x ++ reverse x
 -- Fizz is any number  that is divisible by 3 and Buzz is any number that is divisible by 5
 -- Example: fizzBuzz returns ["Fizz","1","2","Fizz","4","Buzz"... etc
 fizzBuzz = error "TODO fizzBuzz"
-i
+
