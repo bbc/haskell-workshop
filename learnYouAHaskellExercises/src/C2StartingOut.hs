@@ -41,7 +41,8 @@ palindrome = error "TODO palindrome"
 -- Example: cut 10 20 [1..100] returns [11,12,13,14,15,16,17,18,19,20]
 cut = error "TODO cut"
 
--- Write a list comprehension that returns fizzBuzz
--- Example: fizzBuzz returns ["Fizz", "Fizz", "Buzz", ... etc]
+-- Write a list comprehension that computes Fizz Buzz
+-- Fizz is any number  that is divisible by 3 and Buzz is any number that is divisible by 5
+-- Example: fizzBuzz returns ["Fizz","1","2","Fizz","4","Buzz"... etc
 fizzBuzz = error "TODO fizzBuzz"
 
