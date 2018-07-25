@@ -41,6 +41,7 @@ palindrome x = x ++ (reverse x)
 -- Example: cut 10 20 [1..100] returns [11,12,13,14,15,16,17,18,19,20]
 cut min max xs = [ x  | x <- xs, x <= max, x >= min ]
 
--- Write a list comprehension that returns fizzBuzz
--- Example: fizzBuzz returns ["Fizz", "Fizz", "Buzz", ... etc]
+-- Write a list comprehension that computes Fizz Buzz
+-- Fizz is any number  that is divisible by 3 and Buzz is any number that is divisible by 5
+-- Example: fizzBuzz returns ["Fizz","1","2","Fizz","4","Buzz"... etc
 fizzBuzz = [ if s `mod` 3 == 0 then "Fizz" else if s `mod` 5 == 0 then "Buzz" else show s | s <- [0..100]]
