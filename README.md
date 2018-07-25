@@ -62,6 +62,13 @@ to run the tests.
 Feel free to contribute if they are too easy, too hard, or you have any
 suggestions.
 
+Test Approach
+-------------
+There are different approaches to test development. Test driven development
+which is necessary for the moving parts of OO development or REPL driven
+development that **may** be more conducive to FP languages with referential
+transparency. The developer chooses how he or she works. 
+
 Suggested learnings
 -------------------
 * [Functional Programming in Haskell - Online Course](https://www.futurelearn.com/courses/functional-programming-haskell/3)
