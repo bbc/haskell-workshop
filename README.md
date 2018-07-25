@@ -12,6 +12,8 @@ Editors
 * [Syntastic](https://github.com/vim-syntastic/syntastic) supports syntax checking in Haskell for Vim.
 * [Vim-one](https://github.com/rakr/vim-one/) supports light-weight syntax highlighting for Vim.
 
+Enter **:set prompt "ghci> "** in $HOME/.ghci for a more descriptive and permanent prompt.
+
 Usage
 -----
 In your terminal you can open the interpreter with `ghci` or `stack ghci`.
