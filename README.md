@@ -22,10 +22,14 @@ Exercises
 
 The exercises for the book are in the `learnYouAHaskellExercises/src` directory.
 
-Once you have loaded ghci, you can load each module/file into the interpreter,
+If you wish to do the exercises, create a folder within the root of this repo, e.g `chrisb/exercises/week1` and copy the contents of `learnYouAHaskellExercises` into your weeks folder. 
+
+Once you have loaded `ghci`, you can load each module/file into the interpreter,
 
 ```
-:l Filename.hs
+$ cd chrisb/exercises/week1
+$ stack ghci
+Prelude> :l Filename.hs
 -- Now you can run the functions in that module here
 ```
 
@@ -34,7 +38,8 @@ The exercises come in various degrees of difficulty, hopefully starting straight
 You can also run unit tests to check whether your implementation is correct. In the learnYouAHaskellExercises directory, run:
 
 ```
-stack test
+$ cd chrisb/exercises/week1
+$ stack test
 ```
 
 to run the tests.
