@@ -1,7 +1,5 @@
 module C2StartingOut where
 
-import Data.List
-
 -- To load in ghci: :load C2StartingOut.hs
 -- Then you will be able to run all of these functions
 
@@ -35,7 +33,7 @@ lastThreeSummed2 l = sum (drop (length l - 3) l)
 
 -- Get the first n characters from the english alphabet in a list
 -- Example: getLetters 8 returns ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-getLetters n = take n ['a','b'..]
+getLetters n = take n ['a'..'z']
 
 -- Generate a palindrome from any input string (doesn't have to be meaningful)
 -- Example: palindrome "cats and dogs" returns "cats and dogssgod dna stac"
@@ -44,10 +42,11 @@ palindrome x = x ++ reverse x
 -- Cut the elements of a list between two points
 -- Hint: this function will take 3 arguments (two indices and a list)
 -- Example: cut 10 20 [1..100] returns [11,12,13,14,15,16,17,18,19,20]
---cut lower upper l = [ x  | x <- l, fst (indexed l) >= lower, fst(indexed l) <= upper]
+cut lower upper l = take (upper - lower) (drop lower l)
+
 
 -- Write a list comprehension that computes Fizz Buzz
 -- Fizz is any number  that is divisible by 3 and Buzz is any number that is divisible by 5
 -- Example: fizzBuzz returns ["Fizz","1","2","Fizz","4","Buzz"... etc
-fizzBuzz = error "TODO fizzBuzz"
+fizzBuzz l = [ if x `mod` 3 == 0 then "fizz" else if x `mod` 5 == 0 then "buzz" else show x | x<-l] 
 
