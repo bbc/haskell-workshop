@@ -77,3 +77,7 @@ Suggested learnings
 * [Haskell Fundamentals Part 1](https://app.pluralsight.com/library/courses/haskell-fundamentals-part1/table-of-contents)
 * [Haskell is Not For Production and Other Tales](https://www.youtube.com/watch?v=mlTO510zO78)
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
+
+TODO
+----
+* What types of testing frameworks should we use? We should also like to use property based testing
