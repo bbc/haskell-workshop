@@ -28,7 +28,7 @@ Core text
 -----------
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
 
-It is recommended a chapter a week is read and exercises completed. 
+It is recommended a chapter a week is read and exercises completed.
 
 Exercises
 ---------
@@ -37,7 +37,7 @@ directory.
 
 If you wish to do the exercises, create a folder within the root of this repo,
 e.g `chrisb/exercises/week1` and copy the contents of
-`learnYouAHaskellExercises` into your weeks folder. 
+`learnYouAHaskellExercises` into your weeks folder.
 
 Once you have loaded `ghci`, you can load each module/file into the
 interpreter,
@@ -72,7 +72,7 @@ Test Approach
 There are different approaches to test development. Test driven development
 which is necessary for the moving parts of OO development or REPL driven
 development that **may** be more conducive to FP languages with referential
-transparency. The developer chooses how he or she works. 
+transparency. The developer chooses how he or she works.
 
 Suggested learnings
 -------------------
@@ -80,3 +80,8 @@ Suggested learnings
 * [Haskell Fundamentals Part 1](https://app.pluralsight.com/library/courses/haskell-fundamentals-part1/table-of-contents)
 * [Haskell is Not For Production and Other Tales](https://www.youtube.com/watch?v=mlTO510zO78)
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
+* [Parallel and Concurrent Programming in Haskell](https://www.amazon.co.uk/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942)
+
+TODO
+----
+* What types of testing frameworks should we use? We should also like to use property based testing
