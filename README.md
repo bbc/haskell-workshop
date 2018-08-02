@@ -11,6 +11,9 @@ Editors
 ### Vim
 * [Syntastic](https://github.com/vim-syntastic/syntastic) supports syntax checking in Haskell for Vim.
 * [Vim-one](https://github.com/rakr/vim-one/) supports light-weight syntax highlighting for Vim.
+* [ale](https://github.com/w0rp/ale) Asynchronous Lint Engine. works with numerous languages
+doesnt play nicely with other syntax checkers such as Syntastic or neomake. provides real time
+linting and syntax checking, can also provide autocompletion.
 
 Enter **:set prompt "ghci> "** in $HOME/.ghci for a more descriptive and permanent prompt.
 
