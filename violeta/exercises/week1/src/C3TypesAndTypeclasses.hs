@@ -34,5 +34,5 @@ hasNumbersInside xs = null xs
 
 -- Write the type signature for this function
 -- Hint: You will need to use the relevant typeclasses
---- showAndRead :: (Read a1, Show a2) => a2 -> a1
+--- showAndRead :: (Read a, Show a) => a -> a
 showAndRead a = read (show a)
