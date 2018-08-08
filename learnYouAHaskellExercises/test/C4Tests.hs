@@ -14,4 +14,7 @@ testC4 = hspec $ do
         it "myReverse is implemented correctly" $ do
             C4.myReverse ["Manchester", "Leeds", "Bradford"] `shouldBe` ["Bradford", "Leeds", "Manchester"]
             C4.myReverse [1, 2, 3, 4, 5] `shouldBe` [5, 4, 3, 2, 1]
-
+        it "mySort is implemented correctly" $ do
+            C4.mySort 1 2 `shouldBe` (-1)
+            C4.mySort 2 1 `shouldBe` 1
+            C4.mySort 1 1 `shouldBe` 0

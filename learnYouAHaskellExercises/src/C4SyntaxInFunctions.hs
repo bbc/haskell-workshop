@@ -20,3 +20,13 @@ safeTail = undefined
 myReverse :: [a] -> [a]
 myReverse = undefined
 
+-- Guards
+
+-- Write a function that takes two Ints and returns 1 if the first one is greater than the second
+-- returns 0 if they are equal
+-- and returns -1 if the second is greater
+-- Use guards - do not use if-statements
+-- Something to think about: Why can you not use pattern matching for this?
+mySort :: Int -> Int -> Int
+mySort a b = undefined
+
