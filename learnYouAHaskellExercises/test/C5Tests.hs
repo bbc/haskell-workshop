@@ -14,3 +14,7 @@ testC5 = hspec $ do
             C5.myMap (+3) [1,1,2] `shouldBe` [4,4,5]
             C5.myMap (*10) [] `shouldBe` []
             C5.myMap (++ " rocks") ["haskell"] `shouldBe` ["haskell rocks"]
+        it "tuple2List is implememted correctly" $ do
+            C5.tuple2List [(1,2),(1,2)] `shouldBe` [1,1]
+            C5.tuple2List [] `shouldBe` []
+            C5.tuple2List [("a", 1), ("b", 2)] `shouldBe` ["a", "b"]
