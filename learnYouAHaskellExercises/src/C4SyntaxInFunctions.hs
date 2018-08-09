@@ -9,7 +9,7 @@ fib 0 = undefined
 fib 1 = undefined
 fib n = undefined
 
--- write a safeTail function that returns the tail of a list if it is not empty
+-- Write a safeTail function that returns the tail of a list if it is not empty
 -- otherwise returns an empty list, []
 -- use pattern matching 
 -- (note that the patterns are not filled in like they are in the fib example, you will need to write the patterns yourself)
@@ -18,10 +18,21 @@ fib n = undefined
 safeTail :: [String] -> [String]
 safeTail = undefined
 
--- write the reverse function using pattern matching
+-- Write the reverse function using pattern matching
 -- myReverse [1,2,3] returns [3,2,1]
 myReverse :: [a] -> [a]
 myReverse = undefined
+
+-- Write a function that takes the first two elements in a 3-tuple and adds them together
+-- addTuple (1,2,5) returns 3
+addTuple :: Num a => (a, a, b) -> a
+addTuple = undefined
+
+-- Write a function like addTuple, but instead puts the number in a new tuple with the third element
+-- condenseTuple (1,2,"income") returns (3, "income")
+condenseTuple :: Num a => (a, a, String) -> (a, String)
+condenseTuple = undefined
+
 
 -- Guards
 

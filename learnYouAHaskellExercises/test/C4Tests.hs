@@ -18,3 +18,10 @@ testC4 = hspec $ do
             C4.mySort 1 2 `shouldBe` (-1)
             C4.mySort 2 1 `shouldBe` 1
             C4.mySort 1 1 `shouldBe` 0
+        it "addTuple is implemented correctly" $ do
+            C4.addTuple (1, 2, 6) `shouldBe` 3
+            C4.addTuple (0, 6, 10) `shouldBe` 6
+        it "condenseTuple is implemented correctly" $ do
+            C4.condenseTuple (1, 2, "income") `shouldBe` (3, "income")
+            C4.condenseTuple (0, 6, "population") `shouldBe` (6, "population")
+
