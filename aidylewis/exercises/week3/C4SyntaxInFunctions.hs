@@ -32,5 +32,8 @@ myReverse [] = []
 -- Use guards - do not use if-statements
 -- Something to think about: Why can you not use pattern matching for this?
 mySort :: Int -> Int -> Int
-mySort a b = undefined
+mySort a b
+    | a == b = 0
+    | a > b =  1
+    | b > a = -1
 
