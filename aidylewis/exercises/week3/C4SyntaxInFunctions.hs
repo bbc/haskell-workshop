@@ -17,6 +17,16 @@ safeTail :: [String] -> [String]
 safeTail (_:xs) = xs
 safeTail [] = []
 
+-- Write a function that takes the first two elements in a 3-tuple and adds them together
+-- addTuple (1,2,5) returns 3
+addTuple :: Num a => (a, a, b) -> a
+addTuple (x,y,_) = x + y
+
+-- Write a function like addTuple, but instead puts the number in a new tuple with the third element
+-- condenseTuple (1,2,"income") returns (3, "income")
+condenseTuple :: Num a => (a, a, String) -> (a, String)
+condenseTuple (x,y,z) = ((x + y), z)
+
 -- write the reverse function using pattern matching
 myReverse :: [a] -> [a]
 myReverse(x:xs) = myReverse xs ++ [x]
@@ -35,5 +45,4 @@ mySort :: Int -> Int -> Int
 mySort a b
     | a == b = 0
     | a > b =  1
-    | b > a = -1
-
+    | a < b = -1
