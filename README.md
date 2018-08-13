@@ -78,3 +78,12 @@ Suggested learnings
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
 * [Parallel and Concurrent Programming in Haskell](https://www.amazon.co.uk/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942)
 * [Future Learn: Haskell](https://www.futurelearn.com/courses/functional-programming-haskell)
+
+Happenings
+----------
+* [Haskell Exchange - 2018](https://skillsmatter.com/conferences/10237-haskell-exchange-2018)
+* [Manchester Haskell Group](https://www.meetup.com/meetup-group-tHZJZdOn/)
+
+Miscellaneous
+-------------
+* [Haskell Weekly News](https://haskellweekly.news/)
