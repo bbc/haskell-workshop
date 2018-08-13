@@ -77,7 +77,6 @@ Suggested learnings
 * [Haskell is Not For Production and Other Tales](https://www.youtube.com/watch?v=mlTO510zO78)
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
 * [Parallel and Concurrent Programming in Haskell](https://www.amazon.co.uk/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942)
-* [Future Learn: Haskell](https://www.futurelearn.com/courses/functional-programming-haskell)
 
 Happenings
 ----------
