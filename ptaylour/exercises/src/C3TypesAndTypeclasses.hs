@@ -4,16 +4,16 @@ module C3TypesAndTypeclasses where
 -- You can find out the type in ghci with ":t last", but attempt to answer first
 
 -- What is the type of last?
--- last :: ??
+-- last :: [a] -> a
 
 -- What is the type of length?
--- length :: ??
+-- length :: Foldable t => t a -> Int
 
 -- What is the type of take?
--- take :: ??
+-- take :: Int -> [a] -> [a]
 
 -- WHat is the type of myConcat?
--- myConcat :: ??
+-- myConcat :: [a] -> [a] -> [a]
 myConcat a b = a ++ b
 
 
@@ -24,7 +24,7 @@ myConcat a b = a ++ b
 --     What happens if you don't use a typeclass constraint?
 
 -- What is the type of this function
--- mul :: ??
+-- mul :: Num a => a -> a -> a
 mul a b = a * b
 
 -- Consider this function
@@ -32,11 +32,11 @@ hasShowableInside :: Show a => [a] -> Bool
 hasShowableInside xs = null xs
 
 -- Now convert it into a function that checks only whether there are numbers inside
--- hasNumbersInside :: ??
-hasNumbersInside xs = null xs
+hasNumbersInside :: Num a => [a] => Bool
+hasNumbersInside xs = not ( null xs )
 
 -- Write the type signature for this function
 -- Hint: You will need to use the relevant typeclasses
---- showAndRead :: ??
+showAndRead :: (Read a, Show a) => a -> a
 showAndRead a = read (show a)
 

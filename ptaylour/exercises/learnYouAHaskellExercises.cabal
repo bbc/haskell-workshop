@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1b3ac4100aec05dcb573688b82dd4bd3926259c0a56abc6a330b126f278cdb5a
+-- hash: 91f1f35c9e942760de8fecaedb70049b1535b8f6bf994f514b4d3b54604d6055
 
 name:           learnYouAHaskellExercises
 version:        0.1.0.0
@@ -44,7 +44,6 @@ test-suite learnYouAHaskellExercises-test
   other-modules:
       C2Tests
       C4Tests
-      C5Tests
       Paths_learnYouAHaskellExercises
   hs-source-dirs:
       test
