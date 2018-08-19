@@ -9,12 +9,15 @@ Installation
 Editors
 -------
 ### Vim
-* [Syntastic](https://github.com/vim-syntastic/syntastic) supports syntax checking in Haskell for Vim and started using [this](https://github.com/sdiehl/haskell-vim-proto/blob/master/vim/syntax/haskell.vim) for syntax highlighting. 
-* [Vim-one](https://github.com/rakr/vim-one/) supports light-weight syntax highlighting for Vim.
-* [ale](https://github.com/w0rp/ale) Asynchronous Lint Engine. works with numerous languages
-doesnt play nicely with other syntax checkers such as Syntastic or neomake. provides real time
-linting and syntax checking, can also provide autocompletion.
+* [Syntastic](https://github.com/vim-syntastic/syntastic) supports Haskell syntax checking
+* Minimal syntax [highlighting](https://github.com/sdiehl/haskell-vim-proto/blob/master/vim/syntax/haskell.vim)
+* [Vim-one](https://github.com/rakr/vim-one/) supports lightweight syntax highlighting for Vim
+* [Ale](https://github.com/w0rp/ale) Asynchronous Lint Engine. Works with numerous languages, but
+doesnt play nicely with other syntax checkers (e.g. Syntastic or neomake). Ale provides real time
+linting and syntax checking and can also provide autocompletion.
 
+Prompt
+------
 Enter **:set prompt "ghci> "** in $HOME/.ghci for a more descriptive and permanent prompt.
 
 Usage
@@ -67,13 +70,6 @@ to run the tests.
 Feel free to contribute if they are too easy, too hard, or you have any
 suggestions.
 
-Test Approach
--------------
-There are different approaches to test development. Test driven development
-which is necessary for the moving parts of OO development or REPL driven
-development that **may** be more conducive to FP languages with referential
-transparency. The developer chooses how he or she works.
-
 Suggested learnings
 -------------------
 * [Functional Programming in Haskell - Online Course](https://www.futurelearn.com/courses/functional-programming-haskell/3)
@@ -82,6 +78,11 @@ Suggested learnings
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
 * [Parallel and Concurrent Programming in Haskell](https://www.amazon.co.uk/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942)
 
-TODO
-----
-* What types of testing frameworks should we use? We should also like to use property based testing
+Happenings
+----------
+* [Haskell Exchange - 2018](https://skillsmatter.com/conferences/10237-haskell-exchange-2018)
+* [Manchester Haskell Group](https://www.meetup.com/meetup-group-tHZJZdOn/)
+
+Miscellaneous
+-------------
+* [Haskell Weekly News](https://haskellweekly.news/)
