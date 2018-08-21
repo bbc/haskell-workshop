@@ -32,8 +32,8 @@ hasShowableInside :: Show a => [a] -> Bool
 hasShowableInside xs = null xs
 
 -- Now convert it into a function that checks only whether there are numbers inside
-hasNumbersInside :: Num a => [a] => Bool
-hasNumbersInside xs = not ( null xs )
+-- hasNumbersInside :: Num a => [a] => Bool
+-- hasNumbersInside xs = null xs
 
 -- Write the type signature for this function
 -- Hint: You will need to use the relevant typeclasses
