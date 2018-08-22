@@ -22,13 +22,14 @@ safeTail (x:xs) = xs
 -- Write the reverse function using pattern matching
 -- myReverse [1,2,3] returns [3,2,1]
 myReverse :: [a] -> [a]
-myReverse [] = []
-myReverse (x:xs) = (myReverse xs) ++ [x]
+myReverse l = rev l []
+  where rev [] a = a
+        rev (x:xs) a = rev xs (x:a)
 
 -- Write a function that takes the first two elements in a 3-tuple and adds them together
 -- addTuple (1,2,5) returns 3
 addTuple :: Num a => (a, a, b) -> a
-addTuple (a1, a2, b)= a1 + a2
+addTuple (a1, a2, b) = a1 + a2
 
 -- Write a function like addTuple, but instead puts the number in a new tuple with the third element
 -- condenseTuple (1,2,"income") returns (3, "income")
