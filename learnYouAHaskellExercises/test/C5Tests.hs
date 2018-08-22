@@ -2,7 +2,7 @@ module C5Tests where
 
 import Test.Hspec
 
-import qualified C5StartingOut as C5
+import qualified C5Recursion as C5
 
 testC5 = hspec $ do
     describe "C5" $ do
