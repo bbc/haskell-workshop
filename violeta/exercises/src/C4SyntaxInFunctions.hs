@@ -5,9 +5,9 @@ module C4SyntaxInFunctions where
 -- finish this fibonaacci function using pattern matching
 -- fib 10 returns 89
 fib :: Int -> Int
-fib 0 = undefined
-fib 1 = undefined
-fib n = undefined
+fib 0 = 1
+fib 1 = 1
+fib n = fib (n - 1) + fib (n - 2)
 
 -- Write a safeTail function that returns the tail of a list if it is not empty
 -- otherwise returns an empty list, []
@@ -16,22 +16,24 @@ fib n = undefined
 -- safeTail [] returns []
 -- safeTail ["Newcastle", "Sunderland", "Leeds"] returns ["Sunderland", "Leeds"]
 safeTail :: [String] -> [String]
-safeTail = undefined
+safeTail [] = []
+safeTail (_:xs) = xs
 
 -- Write the reverse function using pattern matching
 -- myReverse [1,2,3] returns [3,2,1]
 myReverse :: [a] -> [a]
-myReverse = undefined
+myReverse [] = []
+myReverse (x:xs) = (myReverse xs) ++ [x]
 
 -- Write a function that takes the first two elements in a 3-tuple and adds them together
 -- addTuple (1,2,5) returns 3
 addTuple :: Num a => (a, a, b) -> a
-addTuple = undefined
+addTuple (x, y, _) = x + y
 
 -- Write a function like addTuple, but instead puts the number in a new tuple with the third element
 -- condenseTuple (1,2,"income") returns (3, "income")
 condenseTuple :: Num a => (a, a, String) -> (a, String)
-condenseTuple = undefined
+condenseTuple (x, y, z) = (x + y, z)
 
 
 -- Guards
@@ -42,5 +44,8 @@ condenseTuple = undefined
 -- Use guards - do not use if-statements
 -- Something to think about: Why can you not use pattern matching for this?
 mySort :: Int -> Int -> Int
-mySort a b = undefined
+mySort a b
+    | a > b     =  1
+    | a == b    =  0
+    | otherwise = -1
 
