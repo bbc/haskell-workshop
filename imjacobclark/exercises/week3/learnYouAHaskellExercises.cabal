@@ -1,0 +1,52 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 6ae4ee6e1e766d6484f00354f9a92218ef2942644bce15d195b6828d4b4cce5c
+
+name:           learnYouAHaskellExercises
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/learnYouAHaskellExercises#readme>
+homepage:       https://github.com/bbc/haskell-workshop#readme
+bug-reports:    https://github.com/bbc/haskell-workshop/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/bbc/haskell-workshop
+  subdir: learnYouAHaskellExercises
+
+library
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  exposed-modules:
+      C4SyntaxInFunctions
+  other-modules:
+      Paths_learnYouAHaskellExercises
+  default-language: Haskell2010
+
+test-suite learnYouAHaskellExercises-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , hspec
+    , learnYouAHaskellExercises
+  other-modules:
+      C4Tests
+      Paths_learnYouAHaskellExercises
+  default-language: Haskell2010
