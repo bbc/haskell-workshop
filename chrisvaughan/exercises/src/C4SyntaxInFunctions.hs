@@ -16,24 +16,24 @@ fib n = fib (n - 1) + fib (n - 2)
 -- safeTail [] returns []
 -- safeTail ["Newcastle", "Sunderland", "Leeds"] returns ["Sunderland", "Leeds"]
 safeTail :: [String] -> [String]
-safeTail (_:t) = t
 safeTail []    = []
+safeTail (_:xs) = xs
 
 -- Write the reverse function using pattern matching
 -- myReverse [1,2,3] returns [3,2,1]
 myReverse :: [a] -> [a]
-myReverse (x:xs) = (myReverse xs) ++ [x]
 myReverse [] = []
+myReverse (x:xs) = (myReverse xs) ++ [x]
 
 -- Write a function that takes the first two elements in a 3-tuple and adds them together
 -- addTuple (1,2,5) returns 3
 addTuple :: Num a => (a, a, b) -> a
-addTuple (a, b, c) = a + b
+addTuple (a1, a2, _) = a1 + a2
 
 -- Write a function like addTuple, but instead puts the number in a new tuple with the third element
 -- condenseTuple (1,2,"income") returns (3, "income")
 condenseTuple :: Num a => (a, a, String) -> (a, String)
-condenseTuple (a, b, c) = (a + b, c)
+condenseTuple (a1, a2, s) = (a1 + a2, s)
 
 
 -- Guards
