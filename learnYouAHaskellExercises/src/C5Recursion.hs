@@ -1,5 +1,7 @@
 module C5Recursion where
 
+-- Implement all of these functions using explicit recursion
+
 -- Write a minimum function that takes a list and returns its smallest element
 -- myMin [10, 5, 15] returns 5
 myMin :: Ord a => [a] -> a
