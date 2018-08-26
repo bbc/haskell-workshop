@@ -92,6 +92,7 @@ Happenings
 ----------
 * [Haskell Exchange - 2018](https://skillsmatter.com/conferences/10237-haskell-exchange-2018)
 * [Manchester Haskell Group](https://www.meetup.com/meetup-group-tHZJZdOn/)
+* [Lazy Manc](https://lazymanc.slack.com)
 
 Miscellaneous
 -------------
