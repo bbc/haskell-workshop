@@ -1,6 +1,11 @@
 # Learn You A Haskell Exercises
 
-The exercises are in the `src` directory.
+The exercises are in the `src` directory. Each file corresponds to a chapter of [LYAH](http://learnyouahaskell.com/chapters).
+
+- C2StartingOut.hs
+- C3TypesAndTypeclasses.hs
+- C4SyntaxInFunctions.hs
+- C5Recursion.hs
 
 ## Running code
 
