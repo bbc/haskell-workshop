@@ -1,5 +1,7 @@
-haskell-workshop
+Haskell Workshop
 ================
+
+This is the BBC's Haskell Workshop group.
 
 Installation
 ------------
@@ -37,6 +39,13 @@ Exercises
 ---------
 The exercises for the book are in the `learnYouAHaskellExercises/src`
 directory.
+
+Each file corresponds to a chapter of [LYAH](http://learnyouahaskell.com/chapters).
+
+- C2StartingOut.hs
+- C3TypesAndTypeclasses.hs
+- C4SyntaxInFunctions.hs
+- C5Recursion.hs
 
 If you wish to do the exercises, create a folder within the root of this repo,
 e.g `chrisb/exercises/week1` and copy the contents of
