@@ -70,13 +70,14 @@ to run the tests.
 Feel free to contribute if they are too easy, too hard, or you have any
 suggestions.
 
-Suggested learnings
+Suggested Learnings/Readings
 -------------------
 * [Functional Programming in Haskell - Online Course](https://www.futurelearn.com/courses/functional-programming-haskell/3)
 * [Haskell Fundamentals Part 1](https://app.pluralsight.com/library/courses/haskell-fundamentals-part1/table-of-contents)
 * [Haskell is Not For Production and Other Tales](https://www.youtube.com/watch?v=mlTO510zO78)
 * [How I Start: guide to setting up a Haskell project with Stack](http://howistart.org/posts/haskell/)
 * [Parallel and Concurrent Programming in Haskell](https://www.amazon.co.uk/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942)
+* [Return type polymorphism in Haskell](https://eli.thegreenplace.net/2018/return-type-polymorphism-in-haskell/)
 
 Happenings
 ----------
