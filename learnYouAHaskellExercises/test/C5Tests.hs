@@ -27,7 +27,7 @@ testC5 = hspec $ do
         it "myReduce is implememted correctly" $ do
             C5.myReduce (+) 0 [1,2,3] `shouldBe` 6
             C5.myReduce (:) [] ["hello", "world"] `shouldBe` ["hello", "world"]
-        it "myMap is implememted correctly" $ do
+        it "myMapWithReduce is implememted correctly" $ do
             C5.myMapWithReduce (+3) [1,1,2] `shouldBe` [4,4,5]
             C5.myMapWithReduce (*10) [] `shouldBe` []
             C5.myMapWithReduce (++ " rocks") ["haskell"] `shouldBe` ["haskell rocks"]
