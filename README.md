@@ -48,14 +48,14 @@ Each file corresponds to a chapter of [LYAH](http://learnyouahaskell.com/chapter
 - C5Recursion.hs
 
 If you wish to do the exercises, create a folder within the root of this repo,
-e.g `chrisb/exercises/week1` and copy the contents of
+e.g `<name>/exercises` and copy the contents of
 `learnYouAHaskellExercises` into your weeks folder.
 
 Once you have loaded `ghci`, you can load each module/file into the
 interpreter,
 
 ```
-$ cd chrisb/exercises/week1
+$ cd <name>/exercises
 $ stack ghci
 Prelude> :l Filename.hs
 -- Now you can run the functions in that module here
@@ -70,7 +70,7 @@ You can also run unit tests to check whether your implementation is correct. In
 the learnYouAHaskellExercises directory, run:
 
 ```
-$ cd chrisb/exercises/week1
+$ cd <name>/exercises
 $ stack test
 ```
 
