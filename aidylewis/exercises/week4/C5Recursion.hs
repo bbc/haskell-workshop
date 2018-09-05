@@ -34,7 +34,8 @@ tuple2List ((a,b):xs) = a:tuple2List xs
 -- using recursion
 -- myMap (+2) [1,2,3] returns [3,4,5]
 myMap :: (a -> b) -> [a] -> [b]
-myMap = undefined
+myMap _ [] = []
+myMap f (x:xs) = f x : myMap f xs
 
 -- Write the filter function,
 --  i.e. JavaScript's array.filter(fn)
