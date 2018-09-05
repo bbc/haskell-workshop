@@ -12,6 +12,11 @@ myMin (x:xs)
     | otherwise = minTail
     where minTail = myMin xs
 
+myMin' :: Ord a => [a] -> a
+myMin' [] = error "minimum of empty list"
+myMin' [x] = x
+myMin' (x:xs) = min x (myMin' xs)
+
 -- Write a function that takes a finite list and turns it into an infinite list which repeats itself
 -- Hint: this won't need any base/edge case
 -- longList [1,2,3,4,5] returns [1,2,3,4,5,...]
