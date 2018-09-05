@@ -21,7 +21,7 @@ myMin' (x:xs) = min x (myMin' xs)
 -- Hint: this won't need any base/edge case
 -- longList [1,2,3,4,5] returns [1,2,3,4,5,...]
 longList :: [a] -> [a]
-longList = undefined
+longList xs = xs ++ longList xs
 
 -- Write a function that takes a list of tuples and extracts the first element in each tuple into a new list
 -- tuple2List [("a", 1), ("b", 2)] returns ["a", "b"]
