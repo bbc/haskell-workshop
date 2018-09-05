@@ -43,9 +43,9 @@ myMap f (x:xs) = f x : myMap f xs
 -- myFilter (>2) [1,2,3,4] returns [3, 4]
 myFilter :: (a -> Bool) -> [a] -> [a]
 myFilter _ [] = []
-myFilter p (x:xs)
-    | p x = x : myFilter p xs
-    | otherwise = myFilter p xs
+myFilter p (x:xs) | p x = x : xs'
+    | otherwise = xs'
+    where xs' = myFilter p xs
 
 -- Write the reduce function,
 --  i.e. JavaScript's array.reduce(fn)
