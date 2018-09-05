@@ -26,7 +26,8 @@ longList xs = xs ++ longList xs
 -- Write a function that takes a list of tuples and extracts the first element in each tuple into a new list
 -- tuple2List [("a", 1), ("b", 2)] returns ["a", "b"]
 tuple2List :: [(a, b)] -> [a]
-tuple2List = undefined
+tuple2List [] = []
+tuple2List ((a,b):xs) = a:tuple2List xs
 
 -- Write the map function,
 --  i.e. JavaScript's array.map(fn)
