@@ -40,5 +40,3 @@ hasNumbersInside xs = null xs
 -- Hint: You will need to use the relevant typeclasses
 showAndRead :: (Read a, Show a) => a -> a
 showAndRead a = read (show a)
--- XXX (Read a1, Show a2) => a2 -> a1
-
