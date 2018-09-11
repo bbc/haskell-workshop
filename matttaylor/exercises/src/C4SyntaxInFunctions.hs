@@ -24,7 +24,7 @@ safeTail (_:xs) = xs
 -- myReverse [1,2,3] returns [3,2,1]
 myReverse :: [a] -> [a]
 myReverse [] = []
-myReverse (x:xs) = myReverse xs ++ [x]
+yReverse (x:xs) = myReverse xs ++ [x]
 
 -- Write a function that takes the first two elements in a 3-tuple and adds them together
 -- addTuple (1,2,5) returns 3
