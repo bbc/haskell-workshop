@@ -46,3 +46,5 @@ andThen = undefined
 replaceDotWithAndThen :: [Int]
 replaceDotWithAndThen = undefined
 
+-- If you want to use something more concise than `andThen`
+(>>>) = andThen
