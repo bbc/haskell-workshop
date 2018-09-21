@@ -16,8 +16,8 @@ partial1 = undefined
 partial2 = undefined
 
 -- Apply the final argument to partial2
--- full :: ??
-full = undefined
+-- fullyEvaluatedF :: ??
+fullyEvaluatedF = undefined
 
 -- Generalise the applyTwice function to apply any arbitrary number of times
 -- apply (+1) 0 10 should return 10
