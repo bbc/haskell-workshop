@@ -5,7 +5,8 @@ module C6HOF where
 unevaledF :: (a -> b -> c) -> a -> b -> c
 unevaledF = undefined
 
--- Apply the first argument to full (doesn't matter what)
+-- Apply the first argument to unevaledF 
+-- (doesn't matter what it is, we're only interested in the partial application)
 -- Fill in the type signatures
 -- partial1 :: ??
 partial1 = undefined
