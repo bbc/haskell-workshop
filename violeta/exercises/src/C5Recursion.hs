@@ -54,3 +54,10 @@ myMapWithReduce :: (a -> b) -> [a] -> [b]
 myMapWithReduce fn [] = []
 myMapWithReduce fn [x] = [fn x]
 myMapWithReduce fn (x:xs) = myReduce (:) (myMapWithReduce fn xs) (myMapWithReduce fn [x])
+
+quicksort :: Ord a => [a] -> [a]
+quicksort [] = []
+quicksort (x:xs) =
+    let smallerthan = [y | y <- xs, y <= x]
+        greaterthan = [y | y <- xs, y > x]
+    in quicksort smallerthan ++ [x] ++ quicksort greaterthan
