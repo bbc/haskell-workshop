@@ -46,6 +46,7 @@ Each file corresponds to a chapter of [LYAH](http://learnyouahaskell.com/chapter
 - C3TypesAndTypeclasses.hs
 - C4SyntaxInFunctions.hs
 - C5Recursion.hs
+- C6HOF.hs
 
 If you wish to do the exercises, create a folder within the root of this repo,
 e.g `<name>/exercises` and copy the contents of
